@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 4;
+    padding: 0;
+    background-color: #c9c9c9;
+
+}
+
+header {
+    background-image:url(https://viajes.nationalgeographic.com.es/medio/2024/04/04/istock-1412139990_0d35d974_240404175500_1200x630.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #35424a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+
+nav{
+    text-align: left;
+}
+
+nav ul {
+    list-style:none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration:none ;
+}
+
+main {
+    padding: 20px;
+}
+p {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: none;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: solid;
+    text-align: left;
+}
+
+h2 {
+    color: #35424a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x larger;
+    text-align: none;
+    text-decoration: none;
+}
+
+
+article {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 2px solid #4CAF50;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-image: linear-gradient(red,orange, yellow);
+}
+
+.expandido {
+    width: 50%;
+}
+
+
+.boton{
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    width:30%;
+    padding: 10px 0px;
+    border-style: outset;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: crosshair;
+
+}
+.boton:hover {
+    color:rgb(225,0, 176);
+    background-color: aqua;
+}
+
